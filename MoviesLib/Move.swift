@@ -16,7 +16,7 @@ struct Movie: Codable {
     let summary: String
     let imageName: String
     
-    enum CodiKeys: String, CodingKey {
+    enum CodingKeys: String, CodingKey {
         case title
         case categories
         case duration
